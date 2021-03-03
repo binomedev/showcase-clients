@@ -2,9 +2,9 @@
 
 namespace Binomedev\ClientsManager;
 
+use Binomedev\ClientsManager\Commands\ClientsManagerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Binomedev\ClientsManager\Commands\ClientsManagerCommand;
 
 class ShowcaseClientsServiceProvider extends PackageServiceProvider
 {
